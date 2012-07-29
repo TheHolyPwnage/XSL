@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <xsl:template match="/employees/employee[@position='CEO']">
+  <xsl:template match="/">
     <html>
       <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -28,7 +28,7 @@
             <th>Numer domowy</th>
             <th>Komórka</th>
           </tr>
-          <xsl:for-each select="employees/employee">
+          <xsl:for-each select="employees/employee[@position='CEO']/employees/employee">
             <tr>
               <td><xsl:value-of select="name" /></td>
               <td><xsl:value-of select="surname" /></td>

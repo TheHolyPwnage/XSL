@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<employees>
+	<employee position="manager">
+		<name>Jan</name>
+		<surname>Kowalski</surname>
+		<personalInformation>
+			<birthDate>21-04-1989</birthDate>
+			<mothersMaidenName>Lucyna</mothersMaidenName>
+		</personalInformation>
+		<address>
+			<street>Tuwima 11/12</street>
+			<city>Białystok</city>
+			<postalCode>15-666</postalCode>
+		</address>
+		<contact>
+			<cellPhone>799999999</cellPhone>
+		</contact>
+	</employee>
+	<employee position="worker">
+		<name>Ania</name>
+		<surname>Zakrzewska</surname>
+		<personalInformation>
+			<birthDate>11-02-1959</birthDate>
+			<mothersMaidenName>Zdzisława</mothersMaidenName>
+		</personalInformation>
+		<address>
+			<street>Polska 66</street>
+			<city>Białystok</city>
+			<postalCode>13-646</postalCode>
+		</address>
+		<contact>
+			<homePhone>6545555</homePhone>
+		</contact>
+	</employee>
+	<employee position="CEO">
+		<name>Michał</name>
+		<surname>Bielawski</surname>
+		<address>
+			<street>Wierzbowa 13</street>
+			<city>Białystok</city>
+			<postalCode>11-342</postalCode>
+		</address>
+		<contact>
+			<homePhone>6545575</homePhone>
+			<cellPhone>299999889</cellPhone>
+		</contact>
+		<employees>
+			<employee position="rightHand">
+				<name>Łukasz</name>
+				<surname>Maciak</surname>
+			</employee>
+			<employee position="leftHand">
+				<name>Tadeusz</name>
+				<surname>Rybak</surname>
+			</employee>
+		</employees>
+	</employee>
+</employees>
